@@ -10,3 +10,11 @@
 <br />
   </div>
 </div>
+
+ <div align="center">
+ 
+[<img align="center" src='https://user-images.githubusercontent.com/98658943/205890369-d77c6602-cc58-4a76-a2d1-3bba0f385648.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
+<br />
+<br />
+  </div>
+</div>
