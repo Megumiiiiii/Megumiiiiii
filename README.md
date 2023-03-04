@@ -9,11 +9,6 @@
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
  <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
-    
-
-[![dev chat](https://discordapp.com/api/guilds/789009413976883220/widget.png?style=shield)](https://discord.gg/findora)
-
-[![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=shield)]([https://discord.gg/findora](https://discord.gg/sarcophagus-community-753398645507883099))
 
 <br />
 <br />
