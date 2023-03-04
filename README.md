@@ -9,6 +9,7 @@
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
  <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
+    
 
 [![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/findora)
 
