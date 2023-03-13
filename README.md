@@ -44,4 +44,6 @@
 
 #
 <div align="center">
+
+[![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=shield)]([https://discord.gg/findora](https://discord.gg/sarcophagus-community-753398645507883099))
   
