@@ -6,26 +6,32 @@
 </div>
 
 
-<div align="center">
-  <div style="display: flex; align-items: flex-start;">
- <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
-
-  </div>
-</div>
-
 #
  <div align="center">
  
-[<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://user-images.githubusercontent.com/98658943/205915275-701e66b5-3c5b-4934-9136-bb7e52fed3c8.png' alt='otherLink' height='68'>](https://megumii.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
+[<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://user-images.githubusercontent.com/98658943/205915275-701e66b5-3c5b-4934-9136-bb7e52fed3c8.png' alt='otherLink' height='68'>](https://www.megumii.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
 
 
   </div>
 </div>
 
+
 #
 <div align="center">
- 
-### Ambassador - Writer - Validator
+  
+### Active Jobs
+  
+| Role | Community |
+|----------|---------------------|
+| Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) |
+| Local Moderator | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) |
+
+</div>
+  
+
+<div align="center">
+  <div style="display: flex; align-items: flex-start;">
+ <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
 
   </div>
 </div>
@@ -41,22 +47,6 @@
  
   </div>
 </div>
-
-
-
-#
-<div align="center">
-  
-### Active Jobs
-  
-| Role | Community |
-|----------|---------------------|
-| Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) |
-| Local Moderator | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) |
-
-</div>
-
-  #
 
 
 
