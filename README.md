@@ -13,6 +13,13 @@
   </div>
 </div>
 
+<div align="center">
+  <div style="display: flex; align-items: flex-start;">
+ <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
+
+  </div>
+</div>
+
 
 #
 <div align="center">
@@ -36,13 +43,6 @@
 
 </div>
   
-
-<div align="center">
-  <div style="display: flex; align-items: flex-start;">
- <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
-
-  </div>
-</div>
 
 #
 <div align="center">
