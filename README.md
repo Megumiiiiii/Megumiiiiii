@@ -21,8 +21,15 @@
   
 | Role | Community |
 |----------|---------------------|
+| Ambassador | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) |
+
+</div>
+ 
+ ### Inctive Jobs
+  
+| Role | Community |
+|----------|---------------------|
 | Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) |
-| Local Moderator | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) |
 
 </div>
   
