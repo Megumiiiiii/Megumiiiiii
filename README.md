@@ -15,7 +15,9 @@
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
-  !audio[Play](https://github.com/Megumiiiiii/Taiko-Node/raw/main/audio.mp3)
+   
+https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/b85f50a8-fe26-4908-93c0-d49235864722
+
  <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
 
   </div>
