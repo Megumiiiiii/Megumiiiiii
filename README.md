@@ -26,9 +26,9 @@
   
 ### Active Jobs
   
-| Role | Community |
-|----------|---------------------|
-| Ambassador | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) |
+| Role | Community | Date Started | Date Ended |
+|----------|---------------------|---------------|---------------|
+| Ambassador | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) | 17 Feb 2023 | Now |
 
 </div>
 
@@ -37,9 +37,9 @@
  
  ### Inctive Jobs
   
-| Role | Community |
-|----------|---------------------|
-| Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) |
+| Role | Community | Date Started | Date Ended |
+|----------|---------------------|---------------|---------------|
+| Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) | 07 Mar 2022 | 14 Mar 2023 |
 
 </div>
   
