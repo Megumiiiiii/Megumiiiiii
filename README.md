@@ -16,7 +16,8 @@
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
    
-https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/b85f50a8-fe26-4908-93c0-d49235864722
+https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7a6-590f58d7014a
+
 
  <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
 
