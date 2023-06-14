@@ -52,7 +52,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/b85f50a8-fe26-4908-93
   
 ### Mainnet Node
 
-<img src='https://user-images.githubusercontent.com/98658943/205897599-400caf9f-24ee-44bd-b97b-3639c010d80b.png' alt='' heigth='100' /> [<img src='https://user-images.githubusercontent.com/98658943/205898328-67613d4a-2eaa-4cda-b72e-78c664c57d02.png' alt='' heigth='100' />](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
+[<img src='https://user-images.githubusercontent.com/98658943/205898328-67613d4a-2eaa-4cda-b72e-78c664c57d02.png' alt='' heigth='100' />](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
 
 
  
