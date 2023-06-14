@@ -38,7 +38,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/b85f50a8-fe26-4908-93
 #
 <div align="center">
  
- ### Inctive Jobs
+ ### Previous Jobs
   
 | Role | Community | Date Started | Date Ended |
 |----------|---------------------|---------------|---------------|
