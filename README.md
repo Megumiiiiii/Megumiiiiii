@@ -9,6 +9,10 @@
  
 [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://user-images.githubusercontent.com/98658943/205915275-701e66b5-3c5b-4934-9136-bb7e52fed3c8.png' alt='otherLink' height='68'>](https://www.megumii.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
 
+#
+
+[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/Megumiiiiii)
+
 
   </div>
 </div>
