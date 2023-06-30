@@ -1,10 +1,4 @@
 
-<div align="center">
-
-# $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
-
-### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
-
  <div align="center">
  
 [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://user-images.githubusercontent.com/98658943/205915275-701e66b5-3c5b-4934-9136-bb7e52fed3c8.png' alt='otherLink' height='68'>](https://www.megumii.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
@@ -15,7 +9,7 @@
 
 
   </div>
-</div>
+
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -72,7 +66,12 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 #
 
+<div align="center">
 
+# $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
+
+### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
+</div>
 
 
 
