@@ -45,7 +45,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 </div>
   
-
+<!-- 
 #
 <div align="center">
   
@@ -57,6 +57,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
  
   </div>
 </div>
+-->
 
 #
 
