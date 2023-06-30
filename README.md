@@ -1,9 +1,9 @@
 
 <div align="center">
 
-# COPAS MINIMAL KASIH SUMBER
+# $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
 
-
+### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
 
  <div align="center">
  
