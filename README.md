@@ -7,17 +7,24 @@
 
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/Megumiiiiii)
 
+ <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
 
   </div>
+
+#
+
+<div align="center">
+
+# $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
+
+### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
+</div>
 
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
    
 https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7a6-590f58d7014a
-
-
- <img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=ff69b4&style=plastic&label=Visitors" height='35'/>
 
   </div>
 </div>
@@ -65,14 +72,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmZTIxZmE3ZmY3MzRiMDcwNDJhYTQ5ZmNlY2YxMWE1OWIyYmVkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mVBlqOD4ra9jQiI3cC/giphy.gif" height="125" width="420"/>
 </div>
 
-#
 
-<div align="center">
-
-# $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
-
-### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
-</div>
 
 
 
