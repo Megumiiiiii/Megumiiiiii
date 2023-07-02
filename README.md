@@ -11,15 +11,24 @@
 
   </div>
 
-#
+<div align="center">
+
+</br>
+ 
+[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/aura/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+</div>
 
 <div align="center">
+
+</br>
+
 
 # $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
 
 ### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
 </div>
 
+</br>
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
@@ -65,6 +74,14 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
   </div>
 </div>
 -->
+
+<div align="center">
+
+[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/aura/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/aura/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/aura/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+
+</div>
+
 
 #
 
