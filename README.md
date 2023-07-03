@@ -71,8 +71,8 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 </br>
  
-[<img align="center" src='https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/acc02342-f626-40e2-8147-fda5a884f9aa' alt=''  width='150' heigth='150'>](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
-[<img align="center" src='https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/50b5b215-c671-43d0-9595-75ece1148e7c' alt='' width='150' heigth='150'>](https://app.dev.sarcophagus.io/archaeologists)
+[<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/mises.jpg' alt='mises'  width='150' heigth='150'>](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
+[<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/sarco.jpg' alt='sarco' width='150' heigth='150'>](https://app.dev.sarcophagus.io/archaeologists)
 </kbd>
 
 
