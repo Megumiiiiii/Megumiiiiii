@@ -38,8 +38,6 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 -->
 
-<div align="center">
-
 
 </div>
 
@@ -81,6 +79,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 </div>
 
 
+<div id="header" align="center">
 
 # $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
 
