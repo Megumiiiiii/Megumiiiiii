@@ -28,18 +28,6 @@
 
 <!--
 
-#
-<div align="center">
-  
-### Mainnet Node
-
-[<img src='https://user-images.githubusercontent.com/98658943/205898328-67613d4a-2eaa-4cda-b72e-78c664c57d02.png' alt='' heigth='100' />](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
-
-
- 
-  </div>
-</div>
-
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
    
@@ -74,6 +62,23 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 | Role | Community | Date Started | Date Ended |
 |----------|---------------------|---------------|---------------|
 | Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) | 07 Mar 2022 | 14 Mar 2023 |
+
+#
+<div align="center">
+  
+### Mainnet Node
+<kbd>
+
+</br>
+ 
+[<img src='https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/acc02342-f626-40e2-8147-fda5a884f9aa' alt=''  width='150' heigth='150' />](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
+[<img src='https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/50b5b215-c671-43d0-9595-75ece1148e7c' alt='' width='150' heigth='150' />](https://app.dev.sarcophagus.io/archaeologists)
+</kbd>
+
+
+ 
+  </div>
+</div>
 
 
 
