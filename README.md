@@ -69,7 +69,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 </br>
  
-[<img align="center" src='https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/79c04a02-ec4e-4cbe-a955-0e4869454fbe' alt='mises'  width='150' heigth='150'>](https://gw.mises.site/validators/misesvaloper16vlm7rw3yrmjyfgjxu6yftxhny2xllg7gkgln2)
+[<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/ctc.png' alt='mises'  width='150' heigth='150'>](https://staking.creditcoin.org/#/validators)
 [<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/sarco.jpg' alt='sarco' width='150' heigth='150'>](https://app.dev.sarcophagus.io/archaeologists)
 </kbd>
 
