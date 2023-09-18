@@ -1,9 +1,8 @@
 
  <div align="center">
  
-[<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://user-images.githubusercontent.com/98658943/205915275-701e66b5-3c5b-4934-9136-bb7e52fed3c8.png' alt='otherLink' height='68'>](https://www.megumii.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
+[<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/1355b8cd-f761-4a10-9e0f-10d4e46de47f' alt='otherLink' height='68'>](https://megumii.blessingway.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
 
-#
 
 ---
 
@@ -43,7 +42,8 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 </div>
 
-#
+---
+
 <div align="center">
   
 ### Active Jobs
@@ -54,7 +54,8 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 
 </div>
 
-#
+---
+
 <div align="center">
  
  ### Previous Jobs
@@ -63,7 +64,8 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 |----------|---------------------|---------------|---------------|
 | Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) | 07 Mar 2022 | 14 Mar 2023 |
 
-#
+---
+
 <div align="center">
   
 ### Mainnet Node
@@ -88,7 +90,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 </div>
 
 
-#
+---
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmZTIxZmE3ZmY3MzRiMDcwNDJhYTQ5ZmNlY2YxMWE1OWIyYmVkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mVBlqOD4ra9jQiI3cC/giphy.gif" height="125" width="420"/>
