@@ -1,15 +1,20 @@
 
  <div align="center">
  
-[<img align="center" src='https://user-images.githubusercontent.com/98658943/205914724-e13cb3c4-488f-40ba-9bc1-14de1248bae4.png' alt='discord' height='68'>](https://discordapp.com/users/873803230042263563) [<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/followpoint-60%20-%20Copy%20-%20Copy%20-%20Copy%20-%20Copy.png' alt='otherLink' height='68'>](https://megumii.blessingway.xyz)  [<img align="center" src='https://user-images.githubusercontent.com/98658943/205914646-7182af0d-7bf3-468d-bbde-8e23703e4aad.png' alt='telegram' height='68'>](https://t.me/KatouMegumii)
+[<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/followpoint-60%20-%20Copy%20-%20Copy%20-%20Copy%20-%20Copy.png' alt='otherLink' height='68'>](https://megumii.blessingway.xyz)
 
 
 ---
 
+[![Twitter](https://img.shields.io/twitter/follow/megumii?style=social)](https://twitter.com/megumii_tez)
+
+[![](https://img.shields.io/static/v1?label=Telegram&message=%E2%9D%A4&logo=Telegram&color=%23e609e6)](https://KatouMegumi.t.me)
+
+[![](https://img.shields.io/static/v1?label=Discord&message=%E2%9D%A4&logo=Discord&color=%23e609e6)](https://discordapp.com/users/873803230042263563)
+
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23e609e6)](https://github.com/sponsors/Megumiiiiii)
 
-
-<img align="top" src="https://komarev.com/ghpvc/?username=Megumiiiiii&color=e609e6&style=plastic&label=Visitors" height='35'/>
+[![](https://komarev.com/ghpvc/?username=Megumiiiiii&color=e609e6&style=plastic&label=Visitors)]()
 
   </div>
 
