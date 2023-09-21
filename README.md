@@ -87,17 +87,9 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 </div>
 
 
-<div id="header" align="center">
-
-# $${\color{pink}MAU \space COPAS \space \color{violet}MINIMAL \space \color{pink}KASIH \space  SUMBER}$$
-
-### ${\color{red}Hargai \space Effort \space Orang \space Lain \space  Gitu \space Lho..}$
-</div>
-
-
 ---
 
-<div id="header" align="center">
+<div id="footer" align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzNmZTIxZmE3ZmY3MzRiMDcwNDJhYTQ5ZmNlY2YxMWE1OWIyYmVkNSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mVBlqOD4ra9jQiI3cC/giphy.gif" height="125" width="420"/>
 </div>
 
