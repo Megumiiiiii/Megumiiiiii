@@ -8,7 +8,7 @@
 
 [![Twitter](https://img.shields.io/twitter/follow/megumii?style=social)](https://twitter.com/megumii_tez)
 
-[![](https://img.shields.io/static/v1?label=Telegram&message=%E2%9D%A4&logo=Telegram&color=%23e609e6)](https://KatouMegumi.t.me)
+[![](https://img.shields.io/static/v1?label=Telegram&message=%E2%9D%A4&logo=Telegram&color=%23e609e6)](https://KatouMegumii.t.me)
 
 [![](https://img.shields.io/static/v1?label=Discord&message=%E2%9D%A4&logo=Discord&color=%23e609e6)](https://discordapp.com/users/873803230042263563)
 
