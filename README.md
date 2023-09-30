@@ -28,11 +28,11 @@
 
 ![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/3-stats.svg)
 
-[![](https://github-readme-stats.vercel.app/api?username=Megumiiiiii&show_icons=true&theme=jolly&show=discussions_started,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
-
 </div>
 
 <!--
+
+[![](https://github-readme-stats.vercel.app/api?username=Megumiiiiii&show_icons=true&theme=jolly&show=discussions_started,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
 
 <div align="center">
   <div style="display: flex; align-items: flex-start;">
