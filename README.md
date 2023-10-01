@@ -1,26 +1,27 @@
-
- <div align="center">
+<div align="center">
  
 [<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/followpoint-60%20-%20Copy%20-%20Copy%20-%20Copy%20-%20Copy.png' alt='otherLink' height='68'>](https://megumii.blessingway.xyz)
 
-
----
-
-[![Twitter](https://img.shields.io/twitter/follow/megumii?style=social)](https://twitter.com/megumii_tez)
-
-[![](https://img.shields.io/static/v1?label=Telegram&message=%E2%9D%A4&logo=Telegram&color=%23e609e6)](https://KatouMegumii.t.me)
-
-[![](https://img.shields.io/static/v1?label=Discord&message=%E2%9D%A4&logo=Discord&color=%23e609e6)](https://discordapp.com/users/873803230042263563)
-
-[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23e609e6)](https://github.com/sponsors/Megumiiiiii)
-
 [![](https://komarev.com/ghpvc/?username=Megumiiiiii&color=e609e6&style=plastic&label=Visitors)]()
+</div>
 
-  </div>
+ ---
+ <a href="https://discord.com/users/873803230042263563" target="_blank" rel="nofollow">
+   <img src="https://lanyard.cnrad.dev/api/873803230042263563?idleMessage=Probably%20doing%20something%20else..." alt="Discord Presence" align="right">
+</a>
 
-</br>
+- Social Media:
 
+  - [![Twitter](https://img.shields.io/twitter/follow/megumii?style=social)](https://twitter.com/megumii_tez)
+
+  - [![](https://img.shields.io/static/v1?label=Telegram&message=%E2%9D%A4&logo=Telegram&color=%23e609e6)](https://KatouMegumii.t.me)
+
+  - [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23e609e6)](https://github.com/sponsors/Megumiiiiii)
+
+ 
 <div align="center">
+
+ ---
  
 [![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
