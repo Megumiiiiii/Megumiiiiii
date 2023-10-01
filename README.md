@@ -6,7 +6,7 @@
 </div>
 
  ---
- <a href="https://discord.com/users/873803230042263563" target="_blank" rel="nofollow">
+ <a href="https://discordapp.com/users/873803230042263563" target="_blank" rel="nofollow">
    <img src="https://lanyard.cnrad.dev/api/873803230042263563?idleMessage=doing%20something%20else..." alt="Discord Presence" align="right">
 </a>
 
