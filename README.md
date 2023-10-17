@@ -25,9 +25,9 @@
  
 [![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
-[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Megumiiiiii&theme=deuteranopia-friendly-theme&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=512)](https://git.io/streak-stats)
 
-![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/3-stats.svg)
+[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 </div>
 
