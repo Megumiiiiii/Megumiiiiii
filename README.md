@@ -20,17 +20,18 @@
   - [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23e609e6)](https://github.com/sponsors/Megumiiiiii)
 
  
-<div align="center">
+<div>
 
  ---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Megumiiiiii&theme=onedark&rank=-C)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=Megumiiiiii&theme=onedark&rank=-C" alt="Discord Presence" align="center">
  
-[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+<img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/0-profile-details.svg" alt="Discord Presence" align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Megumiiiiii&theme=deuteranopia-friendly-theme&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=512)](https://git.io/streak-stats)
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Megumiiiiii&theme=deuteranopia-friendly-theme&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=512" alt="Discord Presence" align="center">
 
-[![](https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+
+<img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg" alt="Discord Presence" align="left">
 
 </div>
 
