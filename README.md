@@ -3,6 +3,9 @@
 [<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/followpoint-60%20-%20Copy%20-%20Copy%20-%20Copy%20-%20Copy.png' alt='otherLink' height='68'>](https://megumii.blessingway.xyz)
 
 [![](https://komarev.com/ghpvc/?username=Megumiiiiii&color=e609e6&style=plastic&label=Visitors)]()
+
+### Open Source ≠ Free
+
 </div>
 
  ---
