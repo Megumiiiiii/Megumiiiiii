@@ -28,9 +28,7 @@
  
 <img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/0-profile-details.svg" alt="Discord Presence" align="center">
 
-<img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg" alt="Discord Presence" align="left">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Megumiiiiii&theme=deuteranopia-friendly-theme&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=512" alt="Discord Presence" align="center">
+<img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg" alt="Discord Presence" align="left"> <img src="https://github-readme-streak-stats.herokuapp.com?user=Megumiiiiii&theme=deuteranopia-friendly-theme&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&card_width=512" alt="Discord Presence" align="right">
 
 
 </div>
