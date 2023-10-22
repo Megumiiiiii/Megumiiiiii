@@ -4,8 +4,6 @@
 
 [![](https://komarev.com/ghpvc/?username=Megumiiiiii&color=e609e6&style=plastic&label=Visitors)]()
 
-### Open Source ≠ Free
-
 </div>
 
  ---
