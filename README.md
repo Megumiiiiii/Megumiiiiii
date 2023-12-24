@@ -26,7 +26,7 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=Megumiiiiii&theme=onedark&rank=-C"/>
  
-<img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/0-profile-details.svg"/>
+<img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/algolia/4-productive-time.svg"/>
 
 <img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/1-repos-per-language.svg"/> <img src="https://raw.githubusercontent.com/Megumiiiiii/Suiiiiiiiiiiiiii/main/profile-summary-card-output/jolly/3-stats.svg"/>
 
