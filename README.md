@@ -57,9 +57,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
   
 ### Active Jobs
   
-| Role | Community | Date Started |
-|----------|---------------------|---------------|
-| Pharaoh | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) | 17 Feb 2023 | 
+-
 
 </div>
 
@@ -72,23 +70,8 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 | Role | Community | Date Started | Date Ended |
 |----------|---------------------|---------------|---------------|
 | Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) | 07 Mar 2022 | 14 Mar 2023 |
+| Pharaoh | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) | 17 Feb 2023 | 21 May 2024 |
 
----
-
-<div align="center">
-  
-### Mainnet Node
-<kbd>
-
-</br>
- 
-[<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/ctc.png' alt='mises'  width='150' heigth='150'>](https://staking.creditcoin.org/#/validators)
-[<img align="center" src='https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/sarco.jpg' alt='sarco' width='150' heigth='150'>](https://app.dev.sarcophagus.io/archaeologists)
-</kbd>
-
- 
-  </div>
-</div>
 
 
 ---
