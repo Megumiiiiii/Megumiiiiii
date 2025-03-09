@@ -56,8 +56,8 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 <div align="center">
   
 ### Active Jobs
-  
--
+
+  <img src="https://media.stickerswiki.app/pepejam/1215882.512.webp" height="250" width="250"/>
 
 </div>
 
