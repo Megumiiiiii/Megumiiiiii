@@ -19,7 +19,7 @@
 
   - [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23e609e6)](https://github.com/sponsors/Megumiiiiii)
 
- 
+ <!--
 <div align="center">
 
  ---
@@ -37,7 +37,7 @@
 
 <br/>
 
-<!--
+
 
 [![](https://github-readme-stats.vercel.app/api?username=Megumiiiiii&show_icons=true&theme=jolly&show=discussions_started,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
 
@@ -49,7 +49,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
   </div>
 </div>
 
--->
+
 
 ---
 
@@ -72,7 +72,7 @@ https://github.com/Megumiiiiii/Megumiiiiii/assets/98658943/696b96d6-b805-42e3-b7
 | Moderator | [![dev chat](https://discord.com/api/guilds/789009413976883220/widget.png?style=banner2)]([https://discord.gg/findora]) | 07 Mar 2022 | 14 Mar 2023 |
 | Pharaoh | [![dev chat](https://discordapp.com/api/guilds/753398645507883099/widget.png?style=banner2)]([https://discord.gg/sarcophagus-community-753398645507883099]) | 17 Feb 2023 | 21 May 2024 |
 
-
+-->
 
 ---
 
