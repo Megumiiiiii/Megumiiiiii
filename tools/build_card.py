@@ -79,7 +79,7 @@ THEMES = {
     },
 }
 
-TITLE = "megumii@tez"
+TITLE = "megumii"
 
 INFO = [
     ("OS", "Windows, Linux"),
