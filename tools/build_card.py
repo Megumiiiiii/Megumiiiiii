@@ -84,7 +84,7 @@ TITLE = "megumii"
 INFO = [
     ("OS", "Windows, Linux"),
     ("Uptime", None),  # filled from BIRTHDATE
-    ("Host", "Neptunus"),
+    ("Host", "Neptune"),
     ("IDE", "VSCode, Cursor"),
     None,
     # "Languages.Programming" does not fit in 58 cols with all six languages,
