@@ -96,8 +96,8 @@ INFO = [
 ]
 
 CONTACT = [
-    ("Discord", "discordapp.com/users/873803230042263563"),
-    ("Telegram", "KatouMegumii"),
+    ("Discord", "megumii.eth"),
+    ("Telegram", "@KatouMegumii"),
     ("Portfolio", "megumii.xyz"),
 ]
 
