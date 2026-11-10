@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="339.333px" height="60px"
+     viewBox="0 0 339.333 60" font-family="ConsolasFallback,Consolas,Menlo,monospace">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  size-adjust: 109%;
+}
+text {white-space: pre;}
+.px {shape-rendering: crispEdges;}
+</style>
+<g class="px">
+<path d="M7.66667 0h324v3h3v54h-3v3h-324v-3h-3v-54h3z" fill="#d8d8da"/>
+<path d="M10.6667 3h318v3h3v48h-3v3h-318v-3h-3v-48h3z" fill="#ffffff"/>
+<rect x="10.6667" y="54" width="318" height="3" fill="#0088cc"/>
+<g fill="#0088cc" transform="translate(120.50,28.5)"><g><animateTransform attributeName="transform" type="translate" values="0,0;3,-3;0,0" keyTimes="0;0.8;0.9" dur="2.0s" calcMode="discrete" repeatCount="indefinite"/><path d="M3 -12h12v3h-12zM0 -9h15v3h-15zM-3 -6h6v3h-6zM6 -6h9v3h-9zM-6 -3h6v3h-6zM6 -3h9v3h-9zM-9 0h6v3h-6zM6 0h9v3h-9zM-12 3h6v3h-6zM6 3h9v3h-9zM-15 6h6v3h-6zM6 6h9v3h-9zM-15 9h3v3h-3zM6 9h9v3h-9z"/></g></g>
+</g>
+<text x="147.50" y="34.80" font-size="18px" fill="#24292f">TELEGRAM</text>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="339.333px" height="60px"
+     viewBox="0 0 339.333 60" font-family="ConsolasFallback,Consolas,Menlo,monospace">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  size-adjust: 109%;
+}
+text {white-space: pre;}
+.px {shape-rendering: crispEdges;}
+</style>
+<g class="px">
+<path d="M3 0h324v3h3v54h-3v3h-324v-3h-3v-54h3z" fill="#d8d8da"/>
+<path d="M6 3h318v3h3v48h-3v3h-318v-3h-3v-48h3z" fill="#ffffff"/>
+<rect x="6" y="54" width="318" height="3" fill="#1a7f37"/>
+<g fill="#1a7f37" transform="translate(110.44,28.5)"><path d="M-15 -13.5h30v3h-30zM-15 -10.5h3v3h-3zM12 -10.5h3v3h-3zM-15 -7.5h3v3h-3zM-9 -7.5h3v3h-3zM12 -7.5h3v3h-3zM-15 -4.5h3v3h-3zM-6 -4.5h3v3h-3zM12 -4.5h3v3h-3zM-15 -1.5h3v3h-3zM-9 -1.5h3v3h-3zM12 -1.5h3v3h-3zM-15 1.5h3v3h-3zM12 1.5h3v3h-3zM-15 4.5h30v3h-30zM-3 7.5h6v3h-6zM-9 10.5h18v3h-18z"/><path d="M-3 -1.5h9v3h-9z"><animate attributeName="opacity" values="1;0" keyTimes="0.0000;0.5000" dur="1.06s" calcMode="discrete" repeatCount="indefinite"/></path></g>
+</g>
+<text x="137.44" y="34.80" font-size="18px" fill="#24292f">PORTFOLIO</text>
+</svg>

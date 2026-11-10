@@ -1,0 +1,83 @@
+# Refreshes the neofetch-style profile card (dark_mode.svg / light_mode.svg).
+#
+# fetch_stats.py hits the GitHub GraphQL API and caches the expensive
+# lines-of-code walk in cache/loc.json; build_card.py then regenerates both
+# SVGs from assets/ascii-art.txt + cache/stats.json. The cache is committed
+# back so the next run only walks repos whose head commit actually moved.
+name: Update Profile Card
+
+on:
+  # Refresh the numbers once a day.
+  schedule:
+    - cron: "0 5 * * *"
+
+  workflow_dispatch:
+
+  # Rebuild immediately when the art or the generator changes -- but not on
+  # every unrelated push, which would just add commit noise.
+  push:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "tools/**"
+      - ".github/workflows/profile-card.yml"
+
+permissions:
+  contents: write
+
+# A scheduled run and a manual run overlapping would race on the same commit.
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v4
+        with:
+          # Rebasing below needs a real merge base, which a shallow clone lacks.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch GitHub stats
+        env:
+          # A PAT with read:user is needed for private contribution counts;
+          # without it the built-in token still covers all public figures.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: Megumiiiiii
+        run: python tools/fetch_stats.py
+
+      - name: Rebuild the card
+        run: python tools/build_card.py
+
+      - name: Rebuild the Pac-Man board
+        run: python tools/build_pacman.py
+
+      # No stats in these, but they take the card's palette: rebuilt here so a
+      # palette change in build_card.py reaches them too.
+      - name: Rebuild the link buttons
+        run: python tools/build_links.py
+
+      # This is the only workflow left, but main can still move while it
+      # fetches stats -- a manual push lands mid-run. The card and the board
+      # are deterministic build outputs, so replaying them on top of whatever
+      # landed is always safe.
+      - name: Rebase onto any commits that landed meanwhile
+        run: git pull --rebase --autostash origin main
+
+      - name: Commit the regenerated card
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile card stats"
+          branch: main
+          file_pattern: "*.svg cache/*.json"
