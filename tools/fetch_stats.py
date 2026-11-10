@@ -42,23 +42,48 @@ session = requests.Session()
 
 
 def query(document: str, variables: dict, attempt: int = 0) -> dict:
-    """POST a GraphQL document, retrying once on a secondary rate limit."""
-    resp = session.post(
-        ENDPOINT,
-        json={"query": document, "variables": variables},
-        headers={"Authorization": f"bearer {TOKEN}"},
-        timeout=30,
-    )
-    if resp.status_code in (403, 429) and attempt < 3:
-        wait = int(resp.headers.get("Retry-After", 60))
-        print(f"  rate limited, sleeping {wait}s", file=sys.stderr)
+    """POST a GraphQL document, retrying transient failures.
+
+    Retries on rate limits (403/429, honouring Retry-After) and on
+    transient server errors (500/502/503/504) plus connection problems,
+    with exponential backoff. A 502 Bad Gateway from api.github.com is a
+    GitHub-side hiccup, not a problem with the query -- without the retry
+    the whole fetch dies on the first hiccup.
+    """
+    try:
+        resp = session.post(
+            ENDPOINT,
+            json={"query": document, "variables": variables},
+            headers={"Authorization": f"bearer {TOKEN}"},
+            timeout=30,
+        )
+    except requests.RequestException as exc:
+        if attempt < 3:
+            wait = 10 * (2 ** attempt)
+            print(f"  request failed ({exc}), retrying in {wait}s", file=sys.stderr)
+            time.sleep(wait)
+            return query(document, variables, attempt + 1)
+        raise
+
+    if resp.status_code in (403, 429, 500, 502, 503, 504) and attempt < 3:
+        raw = resp.headers.get("Retry-After")
+        try:
+            wait = int(raw) if raw else 0
+        except ValueError:
+            wait = 0
+        if wait <= 0:
+            wait = 10 * (2 ** attempt)
+        print(f"  HTTP {resp.status_code}, retrying in {wait}s", file=sys.stderr)
         time.sleep(wait)
         return query(document, variables, attempt + 1)
 
     resp.raise_for_status()
     payload = resp.json()
     if "errors" in payload:
-        raise SystemExit(f"GraphQL error: {json.dumps(payload['errors'], indent=2)}")
+        # Plain exception, not SystemExit: a single bad query (e.g. one repo
+        # the token cannot read) must not kill the whole fetch -- fetch_loc
+        # catches it per repo and skips that repo.
+        raise RuntimeError(f"GraphQL error: {json.dumps(payload['errors'], indent=2)}")
     return payload["data"]
 
 
@@ -187,11 +212,62 @@ def fetch_commit_total(created_at: str) -> int:
     return total
 
 
+def _save_loc_cache(cache: dict) -> None:
+    """Persist the LOC cache now, not only at the end of the walk.
+
+    The old code wrote it once after every repo: one bad repo near the end
+    threw the whole run away, including every repo already walked. Saving
+    after each repo means a re-run resumes from the last good repo.
+    """
+    CACHE.mkdir(exist_ok=True)
+    LOC_CACHE.write_text(json.dumps(cache, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def _walk_repo(owner: str, short: str, author_id: str) -> tuple[int, int]:
+    """Additions/deletions authored in one repo, paginating its history."""
+    r_add = r_del = 0
+    after = None
+    while True:
+        data = query(HISTORY_Q, {
+            "owner": owner, "name": short,
+            "authorId": author_id, "after": after,
+        })
+        # Any of these can come back null: a repo the token cannot read, a
+        # default branch pointing at a tag instead of a commit, or a repo
+        # deleted/renamed between fetch_repos() and this walk. That used to
+        # raise TypeError here and abort the entire workflow with exit 1.
+        # Raise instead of returning 0: a null repo must be *skipped* (retried
+        # next run), not cached as 0 lines, or a later token fix would never
+        # correct it until the repo's head commit moves.
+        repo_data = (data or {}).get("repository") or {}
+        if not repo_data:
+            raise RuntimeError(f"repository {owner}/{short} returned null "
+                               "(not readable with this token?)")
+        branch = repo_data.get("defaultBranchRef") or {}
+        if not branch:
+            raise RuntimeError(f"repository {owner}/{short} has no default branch")
+        target = branch.get("target") or {}
+        if "history" not in target:
+            raise RuntimeError(f"repository {owner}/{short} default branch "
+                               "target is not a commit")
+        hist = target.get("history") or {}
+        for node in hist.get("nodes") or []:
+            r_add += node["additions"]
+            r_del += node["deletions"]
+        page = hist.get("pageInfo") or {}
+        if not page.get("hasNextPage"):
+            break
+        after = page.get("endCursor")
+    return r_add, r_del
+
+
 def fetch_loc(repos: list[dict], author_id: str) -> tuple[int, int]:
     """Total additions/deletions authored across all repos, memoised by head OID."""
+    CACHE.mkdir(exist_ok=True)
     cache = json.loads(LOC_CACHE.read_text(encoding="utf-8")) if LOC_CACHE.exists() else {}
     added = deleted = 0
-    walked = reused = 0
+    walked = reused = skipped = 0
+    skipped_names: list[str] = []
 
     for repo in repos:
         name = repo["nameWithOwner"]
@@ -208,30 +284,25 @@ def fetch_loc(repos: list[dict], author_id: str) -> tuple[int, int]:
             continue
 
         owner, short = name.split("/", 1)
-        r_add = r_del = 0
-        after = None
-        while True:
-            target = query(HISTORY_Q, {
-                "owner": owner, "name": short,
-                "authorId": author_id, "after": after,
-            })["repository"]["defaultBranchRef"]["target"]
-            hist = target["history"]
-            for node in hist["nodes"]:
-                r_add += node["additions"]
-                r_del += node["deletions"]
-            if not hist["pageInfo"]["hasNextPage"]:
-                break
-            after = hist["pageInfo"]["endCursor"]
+        try:
+            r_add, r_del = _walk_repo(owner, short, author_id)
+        except Exception as exc:  # noqa: BLE001 -- one bad repo must not kill the run
+            # Skip it and keep going: a partial LOC total still lets the card
+            # build, and the next run retries this repo (no cache entry saved).
+            print(f"  WARNING skipping {name}: {exc}", file=sys.stderr)
+            skipped += 1
+            skipped_names.append(name)
+            continue
 
         cache[name] = {"oid": head, "added": r_add, "deleted": r_del}
+        _save_loc_cache(cache)
         added += r_add
         deleted += r_del
         walked += 1
         print(f"  walked {name}: +{r_add:,} -{r_del:,}")
 
-    CACHE.mkdir(exist_ok=True)
-    LOC_CACHE.write_text(json.dumps(cache, indent=2, sort_keys=True), encoding="utf-8")
-    print(f"  loc cache: {walked} walked, {reused} reused")
+    print(f"  loc cache: {walked} walked, {reused} reused, {skipped} skipped"
+          + (f" ({', '.join(skipped_names)})" if skipped_names else ""))
     return added, deleted
 
 

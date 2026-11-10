@@ -30,6 +30,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import re
+import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -324,7 +325,14 @@ def loop(attr: str, values: list[str], dur: float) -> str:
 # --- Data -------------------------------------------------------------------
 def load_calendar() -> dict:
     if not CALENDAR_SRC.exists():
-        raise SystemExit(f"{CALENDAR_SRC} missing -- run tools/fetch_stats.py first")
+        # Degrade gracefully instead of failing the whole workflow: an empty
+        # board (all level 0) renders fine, and the next successful fetch
+        # overwrites it. This matters because the stale cache shipped in the
+        # fork belongs to the original author, not this profile -- deleting it
+        # must not break the Pac-Man step.
+        print(f"WARNING {CALENDAR_SRC} missing -- rendering an empty board",
+              file=sys.stderr)
+        return {"total": 0, "weeks": [[None] * 7 for _ in range(53)]}
     return json.loads(CALENDAR_SRC.read_text(encoding="utf-8"))
 
 
@@ -445,7 +453,11 @@ def build(theme: str, cal: dict) -> str:
     for i, (t, value) in enumerate(steps):
         nxt = steps[i + 1][0] if i + 1 < len(steps) else None
         if i == 0:
-            vals, times = ["visible", "hidden"], [0.0, nxt]
+            # No eaten days at all (empty board): a single static "0", no
+            # animation -- the old code passed nxt=None into keyTimes and
+            # crashed the whole Pac-Man step.
+            vals, times = (["visible"], [0.0]) if nxt is None \
+                else (["visible", "hidden"], [0.0, nxt])
         elif nxt is None:
             vals, times = ["hidden", "visible"], [0.0, t]
         else:

@@ -50,6 +50,11 @@ jobs:
         run: pip install requests
 
       - name: Fetch GitHub stats
+        # A single bad repo used to fail this step (exit 1) and block the
+        # whole card rebuild. fetch_stats.py now skips bad repos per repo,
+        # but if the fetch still fails the card must build anyway from the
+        # last good cache (or "--" placeholders on the very first run).
+        continue-on-error: true
         env:
           # A PAT with read:user is needed for private contribution counts;
           # without it the built-in token still covers all public figures.
