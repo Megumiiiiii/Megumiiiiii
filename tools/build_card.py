@@ -40,7 +40,7 @@ ADVANCE = 0.5995
 # 87x47). Pinning the art COLUMN to a fixed pixel width and deriving the font
 # size from the grid keeps both cards exactly the same size, whatever art
 # either one is given.
-ART_COL_WIDTH = 414.0
+ART_COL_WIDTH = 300.0
 
 # asciiart.eu/image-to-ascii rasterises on a fixed cell 0.54 as wide as it is
 # tall (derived: a square source at 87 characters comes back 47 rows, 47/87).
@@ -84,7 +84,7 @@ TITLE = "megumii"
 INFO = [
     ("OS", "Windows, Linux"),
     ("Uptime", None),  # filled from BIRTHDATE
-    ("Host", "Neptune"),
+    ("Host", "Neptunus"),
     ("IDE", "VSCode, Cursor"),
     None,
     # "Languages.Programming" does not fit in 58 cols with all six languages,
@@ -96,8 +96,8 @@ INFO = [
 ]
 
 CONTACT = [
-    ("Discord", "megumii.eth"),
-    ("Telegram", "@KatouMegumii"),
+    ("Discord", "discordapp.com/users/873803230042263563"),
+    ("Telegram", "KatouMegumii"),
     ("Portfolio", "megumii.xyz"),
 ]
 
