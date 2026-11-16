@@ -355,7 +355,10 @@ def month_labels(weeks: list[list]) -> list[tuple[int, str]]:
 def build(theme: str, cal: dict) -> str:
     c = THEMES[theme]
     weeks = cal["weeks"]
-    ramp = [mix(c["bg"], c["fg"], t) for t in LEVEL_MIX]
+    # mix_base is the stand-in when the theme draws no plate (transparent):
+    # the ramp still needs two colours to blend between.
+    base = c.get("mix_base", c["bg"])
+    ramp = [mix(base, c["fg"], t) for t in LEVEL_MIX]
 
     left = MARGIN + LABEL_COL
     header_y = MARGIN + HEADER_FONT
@@ -481,6 +484,12 @@ def build(theme: str, cal: dict) -> str:
                        f'width="{CELL}" height="{CELL}" rx="{RADIUS}" fill="{ramp[i]}"/>'
                        for i in range(5))
 
+    bg_rect = (
+        ""
+        if c["bg"] == "transparent"
+        else '<rect width="%dpx" height="%gpx" fill="%s" rx="15"/>' % (CANVAS_W, height, c["bg"])
+    )
+
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{CANVAS_W}px" height="{height:g}px"
      font-family="ConsolasFallback,Consolas,Menlo,monospace">
@@ -495,7 +504,7 @@ text, tspan {{white-space: pre;}}
 .px {{shape-rendering: crispEdges;}}
 </style>
 <defs><rect id="d" width="{CELL}" height="{CELL}" rx="{RADIUS}"/></defs>
-<rect width="{CANVAS_W}px" height="{height:g}px" fill="{c['bg']}" rx="15"/>
+{bg_rect}
 <text y="{header_y:g}" font-size="{HEADER_FONT}px" fill="{c['fg']}">{"".join(number)}</text>
 <text x="{words_x:g}" y="{header_y:g}" font-size="{HEADER_FONT}px" fill="{c['fg']}"> contributions in the last year</text>
 <g font-size="{LABEL_FONT}px" fill="{c['dots']}">{months}{days}

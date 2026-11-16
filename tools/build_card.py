@@ -73,7 +73,7 @@ THEMES = {
         "art_src": ASCII_SRC_LIGHT,
         # "transparent" drops the plate entirely: the card is meant to sit on
         # whatever the page already is, not on a white rectangle.
-        "bg": "transparent", "fg": "#24292f", "art": "#24292f",
+        "bg": "transparent", "mix_base": "#ebedf0", "fg": "#24292f", "art": "#24292f",
         "key": "#D6336C", "value": "#0550ae",
         "add": "#1a7f37", "del": "#cf222e", "dots": "#8c959f",
         "green": "#1a7f37", "telegram": "#0088cc", "discord": "#4752C4",
