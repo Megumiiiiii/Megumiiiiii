@@ -141,6 +141,8 @@ def stepped(x: float, y: float, w: float, h: float) -> str:
 
 def build(theme: str, slot: int) -> str:
     c = THEMES[theme]
+    # Transparent themes have no plate colour to blend against.
+    base = c.get("plate") or c.get("mix_base", c["bg"])
     _, label, accent_key, icon = LINKS[slot]
     accent = CLAUDE_CORAL[theme] if accent_key == "coral" else c[accent_key]
 
@@ -166,8 +168,8 @@ text {{white-space: pre;}}
 .px {{shape-rendering: crispEdges;}}
 </style>
 <g class="px">
-<path d="{stepped(x, 0, BUTTON_W, HEIGHT)}" fill="{mix(c['bg'], c['fg'], OUTLINE_MIX)}"/>
-<path d="{stepped(x + PX, PX, BUTTON_W - 2 * PX, HEIGHT - 2 * PX)}" fill="{c['bg']}"/>
+<path d="{stepped(x, 0, BUTTON_W, HEIGHT)}" fill="{mix(base, c['fg'], OUTLINE_MIX)}"/>
+<path d="{stepped(x + PX, PX, BUTTON_W - 2 * PX, HEIGHT - 2 * PX)}" fill="{base}"/>
 <rect x="{x + 2 * PX:g}" y="{HEIGHT - 2 * PX}" width="{BUTTON_W - 4 * PX:g}" height="{PX}" fill="{accent}"/>
 <g fill="{accent}" transform="translate({left + icon_w / 2:.2f},{mid:g})">{icon()}</g>
 </g>
