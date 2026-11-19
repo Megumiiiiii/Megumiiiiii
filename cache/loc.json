@@ -25,9 +25,9 @@
     "oid": "127885c1b1eef68bd77e48c22183c58c7e01d039"
   },
   "Megumiiiiii/Megumiiiiii": {
-    "added": 7710,
-    "deleted": 2404,
-    "oid": "9e0bbdc3af840c8c5f66fd1f4fb22d2e27896817"
+    "added": 7736,
+    "deleted": 2426,
+    "oid": "8b8a2692e9a97f9f308084bc9bd4ed55454b2546"
   },
   "Megumiiiiii/Sarcophagus": {
     "added": 309,
@@ -139,6 +139,11 @@
     "deleted": 0,
     "oid": "a830f7c8a71490c69368cf2071b85b4476e561b0"
   },
+  "Megumiiiiii/icyteru": {
+    "added": 14129,
+    "deleted": 67,
+    "oid": "854d447b1a166301d07ddd413423a02fd6ea2c8f"
+  },
   "Megumiiiiii/ijo": {
     "added": 10584,
     "deleted": 10335,
@@ -235,9 +240,9 @@
     "oid": "a603f418e4b6d286f0c8e32b62b18c85a16915f3"
   },
   "Megumiiiiii/portofolio": {
-    "added": 108728,
-    "deleted": 102033,
-    "oid": "c14c02889922262b370b33aa95a9d4dd907fb781"
+    "added": 108797,
+    "deleted": 102094,
+    "oid": "fdda4e0cf20f737574d1d74dc17b4bc6deaaf737"
   },
   "Megumiiiiii/quickstart-arch": {
     "added": 2292,
