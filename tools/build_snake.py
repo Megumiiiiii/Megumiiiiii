@@ -39,8 +39,11 @@ LABEL_COL = 38             # room for Mon/Wed/Fri left of the grid
 HEADER_FONT = 14
 LABEL_FONT = 12
 
-# Share of the way from the card's background to its foreground, per level.
-LEVEL_MIX = (0.10, 0.30, 0.50, 0.72, 1.0)
+# Official GitHub contribution graph green palettes (level 0..4).
+GITHUB_RAMP = {
+    "dark": ("#21262d", "#0e4429", "#006d32", "#26a641", "#39d353"),
+    "light": ("#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"),
+}
 
 # --- Timing & Snake ---------------------------------------------------------
 STEP = 0.108               # 40% slower discrete Nokia-style tick per cell (seconds)
@@ -247,11 +250,11 @@ def month_labels(weeks: list[list]) -> list[tuple[int, str]]:
 def build(theme: str, cal: dict) -> str:
     c = THEMES[theme]
     weeks = cal["weeks"]
-    base_col = c.get("mix_base", c["bg"])
-    ramp = [mix(base_col, c["fg"], t) for t in LEVEL_MIX]
+    ramp = GITHUB_RAMP[theme]
 
-    # Nokia Snake palette: crisp retro green from the card's theme
-    snake_color = c["add"]
+    # Nokia Snake palette: crisp retro green with subtle outline so it pops over GitHub green
+    snake_color = "#7ee787" if theme == "dark" else "#1a7f37"
+    snake_stroke = "#0d1117" if theme == "dark" else "#ffffff"
     tongue_color = c["del"]
 
     left = MARGIN + LABEL_COL
@@ -331,7 +334,7 @@ def build(theme: str, cal: dict) -> str:
 
         sprites.append(
             f'<g{vis_attr}>{vis_anim}{anim_discrete_translate(tl, coords, times)}'
-            f'<path d="{body_d}" fill="{snake_color}"/></g>'
+            f'<path d="{body_d}" fill="{snake_color}" stroke="{snake_stroke}" stroke-width="0.75"/></g>'
         )
 
     # Render the Nokia Snake head with rotating direction and flicking tongue.
@@ -351,7 +354,7 @@ def build(theme: str, cal: dict) -> str:
         f'<g>{anim_discrete_translate(tl, head_coords, head_times)}'
         f'<g>{rot}'
         f'<path d="{tongue_d}" fill="{tongue_color}" opacity="0">{tongue_flick}</path>'
-        f'<path d="{head_d}" fill="{snake_color}"/>'
+        f'<path d="{head_d}" fill="{snake_color}" stroke="{snake_stroke}" stroke-width="0.75"/>'
         f'</g></g>'
     )
 
