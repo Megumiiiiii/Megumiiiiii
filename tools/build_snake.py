@@ -50,7 +50,7 @@ STEP = 0.108               # 40% slower discrete Nokia-style tick per cell (seco
 INTRO = 1.2                # full calendar, snake waiting before moving
 OUTRO = 1.6                # empty calendar and final total before reset
 INIT_LEN = 4               # starting length (head + 3 body segments)
-MAX_LEN = 55               # max length as it eats contributions
+MAX_LEN = 20               # max length as it eats contributions
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 WEEKDAYS = {1: "Mon", 3: "Wed", 5: "Fri"}
@@ -295,26 +295,14 @@ def build(theme: str, cal: dict) -> str:
 
     eaten.sort()
 
-    # Determine when each extra body segment unlocks as the snake eats.
-    # Level 4 (brightest/white): +3, Level 3 (one step below): +2,
-    # Level 1-2: +1 filling any remaining growth budget evenly.
+    # Determine when each extra body segment unlocks as the snake eats (+1).
     extra_slots = MAX_LEN - INIT_LEN
     grow_times: list[float] = []
-    for lvl_target, bonus in ((4, 3), (3, 2)):
-        for t, _, lvl in eaten:
-            if lvl != lvl_target:
-                continue
-            add = min(bonus, extra_slots - len(grow_times))
-            if add > 0:
-                grow_times.extend([t] * add)
-    rem = extra_slots - len(grow_times)
-    dim = [t for t, _, lvl in eaten if lvl in (1, 2)]
-    if rem > 0 and dim:
-        take = min(rem, len(dim))
-        for s in range(take):
-            idx = min(len(dim) - 1, int(s * len(dim) / take))
-            grow_times.append(dim[idx])
-    grow_times.sort()
+    if eaten and extra_slots > 0:
+        n_eaten = len(eaten)
+        for s in range(extra_slots):
+            idx = min(n_eaten - 1, int(s * n_eaten / extra_slots))
+            grow_times.append(eaten[idx][0])
     total_len = INIT_LEN + len(grow_times)
 
     body_d = sprite_path(bitmap(SNAKE_BODY))
