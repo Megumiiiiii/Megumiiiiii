@@ -43,11 +43,11 @@ LABEL_FONT = 12
 LEVEL_MIX = (0.10, 0.30, 0.50, 0.72, 1.0)
 
 # --- Timing & Snake ---------------------------------------------------------
-STEP = 0.065               # discrete Nokia-style tick per cell (seconds)
+STEP = 0.108               # 40% slower discrete Nokia-style tick per cell (seconds)
 INTRO = 1.2                # full calendar, snake waiting before moving
 OUTRO = 1.6                # empty calendar and final total before reset
 INIT_LEN = 4               # starting length (head + 3 body segments)
-MAX_LEN = 20               # max length as it eats contributions
+MAX_LEN = 45               # max length as it eats contributions
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 WEEKDAYS = {1: "Mon", 3: "Wed", 5: "Fri"}
@@ -277,13 +277,13 @@ def build(theme: str, cal: dict) -> str:
     cells.append(f'<g fill="{ramp[0]}">{"".join(base)}</g>')
 
     # Days with contributions sit on top and vanish as the Snake eats them.
-    eaten: list[tuple[float, int]] = []
+    eaten: list[tuple[float, int, int]] = []
     for col, week in enumerate(weeks):
         for row, day in enumerate(week):
             if not day or not day["level"]:
                 continue
             t = tl.eat_time(col, row)
-            eaten.append((t, day["count"]))
+            eaten.append((t, day["count"], day["level"]))
             cells.append(
                 f'<use href="#d" x="{left + col * PITCH:g}" y="{top + row * PITCH:g}" '
                 f'fill="{ramp[day["level"]]}">'
@@ -293,13 +293,23 @@ def build(theme: str, cal: dict) -> str:
     eaten.sort()
 
     # Determine when each extra body segment unlocks as the snake eats.
+    # Brightest cells (level 4) always grant +3 tail segments; dimmer cells
+    # fill any remaining growth budget evenly.
     extra_slots = MAX_LEN - INIT_LEN
     grow_times: list[float] = []
-    if eaten and extra_slots > 0:
-        n_eaten = len(eaten)
-        for s in range(extra_slots):
-            idx = min(n_eaten - 1, int(s * n_eaten / extra_slots))
-            grow_times.append(eaten[idx][0])
+    bright = [t for t, _, lvl in eaten if lvl == 4]
+    dim = [t for t, _, lvl in eaten if lvl < 4]
+    for t in bright:
+        if len(grow_times) + 3 <= extra_slots:
+            grow_times.extend([t, t, t])
+        elif len(grow_times) < extra_slots:
+            grow_times.extend([t] * (extra_slots - len(grow_times)))
+    rem = extra_slots - len(grow_times)
+    if rem > 0 and dim:
+        for s in range(min(rem, len(dim))):
+            idx = min(len(dim) - 1, int(s * len(dim) / min(rem, len(dim))))
+            grow_times.append(dim[idx])
+    grow_times.sort()
     total_len = INIT_LEN + len(grow_times)
 
     body_d = sprite_path(bitmap(SNAKE_BODY))
@@ -345,7 +355,7 @@ def build(theme: str, cal: dict) -> str:
 
     # Header: GitHub's own sentence, with the number counting up like a score.
     steps, score = [(0.0, 0)], 0
-    for t, count in eaten:
+    for t, count, _ in eaten:
         if count:
             score += count
             steps.append((t, score))
