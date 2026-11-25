@@ -14,6 +14,6 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/pacman_dark.svg">
-  <img alt="Pac-Man eating my contribution graph" src="https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/pacman_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/snake_dark.svg">
+  <img alt="Nokia Snake eating my contribution graph" src="https://raw.githubusercontent.com/Megumiiiiii/Megumiiiiii/main/snake_light.svg">
 </picture>
