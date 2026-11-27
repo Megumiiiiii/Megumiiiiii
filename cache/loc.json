@@ -25,9 +25,9 @@
     "oid": "127885c1b1eef68bd77e48c22183c58c7e01d039"
   },
   "Megumiiiiii/Megumiiiiii": {
-    "added": 8609,
-    "deleted": 3351,
-    "oid": "e743610b2d41bd8f49f7a8fc4bd1c7c2792d50b0"
+    "added": 8638,
+    "deleted": 3376,
+    "oid": "621f18587d9864a55ca685ca207c6da01a230182"
   },
   "Megumiiiiii/Sarcophagus": {
     "added": 309,
@@ -134,6 +134,11 @@
     "deleted": 0,
     "oid": "cc6e325ca2e706367d12e14c26799a65b1add5cd"
   },
+  "Megumiiiiii/hermes-hands": {
+    "added": 1120,
+    "deleted": 0,
+    "oid": "c01278eb94237d739a7e679d22ef975c8f3b689c"
+  },
   "Megumiiiiii/hermes-nurse": {
     "added": 21,
     "deleted": 0,
@@ -142,12 +147,12 @@
   "Megumiiiiii/hermes-recovery": {
     "added": 0,
     "deleted": 0,
-    "oid": "14707c8686193ef1a80378ea2a87119147c78393"
+    "oid": "c962c4f2e310a5990986aa366c51ba2f0c81a696"
   },
   "Megumiiiiii/icyteru": {
     "added": 99,
     "deleted": 2,
-    "oid": "7d55884d1551d49954f5bed20b4ba52d6c289cfe"
+    "oid": "c45be0ed6d9fa9cd4751a352962518b1573214ad"
   },
   "Megumiiiiii/ijo": {
     "added": 10584,
@@ -245,9 +250,9 @@
     "oid": "a603f418e4b6d286f0c8e32b62b18c85a16915f3"
   },
   "Megumiiiiii/portofolio": {
-    "added": 108971,
-    "deleted": 102268,
-    "oid": "7d78cfbac0b8c99b67cf71bf0685b9f64a62128c"
+    "added": 108998,
+    "deleted": 102291,
+    "oid": "8065e2597238e6404e27b5e11df4568a62080395"
   },
   "Megumiiiiii/quickstart-arch": {
     "added": 2292,
